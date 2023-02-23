@@ -71,7 +71,7 @@
                         </div>
 
                         <div class="col-auto pt-2">
-                            <p>Don't have an account?&emsp;<a href="./register.php">Sign Up</a></p>
+                            <p>Don't have an account?&emsp;<a href="./register.php">Register Now</a></p>
                         </div>
                     </div>
                 </div>
