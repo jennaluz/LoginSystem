@@ -40,8 +40,8 @@
                     // redirect to user dashboard
                     header("Location: ./index.php");
                 } else {
-                    echo   "<div class='form mt-5'>
-                                <h1 class='display-3 mb-5'>Incorrect email or password.</h1>
+                    echo   "<div class='form text-center mt-5'>
+                                <h1 class='display-5 mb-5'>Incorrect email or password.</h1>
                                 <p>Try to <a href='./login.php'>log in</a> again.</p>
                             </div>";
                 }
@@ -49,7 +49,7 @@
         ?>
 
         <form method="post" name="login" class="container mt-5">
-            <h1 class="display-5 text-center">Log In</h1>
+            <h1 class="display-4 text-center">Log In</h1>
 
             <div class="row m-5">
                 <div class="col"></div>
@@ -71,7 +71,7 @@
                         </div>
 
                         <div class="col-auto pt-2">
-                            <p>Don't have an account?&emsp;<a href="./signUp.php">Sign Up</a></p>
+                            <p>Don't have an account?&emsp;<a href="./register.php">Sign Up</a></p>
                         </div>
                     </div>
                 </div>

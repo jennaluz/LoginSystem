@@ -44,16 +44,16 @@
                                 <p class='text-center'><a href='./login.php'>Log in</a> to your new account.</p>
                             </div>";
                 } else {
-                    echo "<div class='form mt-5'>
-                                <h1 class='display-5 text-center mb-5'>You are missing required fields.</h1>
-                                <p class='text-center'>Try to <a href='./signUp.php'>sign up</a> again.</p>
+                    echo "<div class='form text-center mt-5'>
+                                <h1 class='display-5 mb-5'>You are missing required fields.</h1>
+                                <p>Try to <a href='./register.php'>register</a> again.</p>
                             </div>";
                 }
             } else {
         ?>
 
         <form action="" method="post" class="container mt-5">
-            <h1 class="display-5 text-center">Sign Up</h1>
+            <h1 class="display-4 text-center">Register</h1>
 
             <div class="row m-5">
                 <div class="col"></div>
