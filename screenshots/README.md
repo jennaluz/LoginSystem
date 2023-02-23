@@ -2,7 +2,7 @@
 ### Register
 ![Register User](Register.png)
 
-### Login
+### Log In
 ![Login to System](Login.png)
 
 ### User Dashboard
