@@ -54,6 +54,7 @@
 
         <form action="" method="post" class="container mt-5">
             <h1 class="display-5 text-center">Sign Up</h1>
+
             <div class="row m-5">
                 <div class="col"></div>
 
@@ -61,7 +62,7 @@
                     <div class="row align-items-center mb-3">
                         <div class="col">
                             <label for="FirstName" class="col-form-label">First Name</label>
-                            <input type="text" name="FirstName" class="form-control" required/>
+                            <input type="text" name="FirstName" class="form-control" autofocus="true" required/>
                         </div>
 
                         <div class="col">
@@ -82,7 +83,7 @@
 
                     <div class="row mt-2">
                         <div class="col-auto">
-                            <button type="submit" name="submit" class="btn btn-outline-dark">Submit</button>
+                            <button type="submit" name="Submit" class="btn btn-outline-dark">Submit</button>
                         </div>
 
                         <div class="col-auto pt-2">
