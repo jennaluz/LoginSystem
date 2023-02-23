@@ -11,7 +11,7 @@ Users who are currently registered in the database can use their email and passw
 ### User Dashboard
 Once logged in, the registered user will see a table of all the users registered in the database; the user ID, first and last name, and email is displayed in this table. Users have the ability to delete a user (including themselves) and add a new user to the database.
 
-#### Take a look at some [screenshots](screenshots/README.md)!
+#### Take a look at some [screenshots](screenshots/)!
 
 ## Improvements
 ### Security
