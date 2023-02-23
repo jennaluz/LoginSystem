@@ -11,7 +11,7 @@
 
     <body>
         <?php
-            require('./database.php');
+            require('../include/database.inc.php');
 
             $FirstName = "";
             $LastName = "";
@@ -33,19 +33,19 @@
                 $Password = stripslashes($_REQUEST['Password']);
                 $Password = mysqli_real_escape_string($Conn, $Password);
 
-                $Query = "INSERT in `user` (FirstName, LastName, EmailAddress, Password)
+                $Query = "INSERT into `Users` (FirstName, LastName, EmailAddress, Password)
                           VALUES ('$FirstName', '$LastName', '$EmailAddress', '" . md5($Password) . "')";
 
                 $Result = mysqli_query($Conn, $Query);
 
                 if ($Result) {
-                    echo   "<div class='form'>
-                                <h1 class='display-5 text-center'>You've successfully registered!</h1>
+                    echo   "<div class='form mt-5'>
+                                <h1 class='display-5 text-center mb-5'>You've successfully registered!</h1>
                                 <p class='text-center'><a href='./login.php'>Log in</a> to your new account.</p>
                             </div>";
                 } else {
-                    echo "<div class='form'>
-                                <h1 class='display-5 text-center'>You are missing required fields.</h1>
+                    echo "<div class='form mt-5'>
+                                <h1 class='display-5 text-center mb-5'>You are missing required fields.</h1>
                                 <p class='text-center'>Try to <a href='./signUp.php'>sign up</a> again.</p>
                             </div>";
                 }
