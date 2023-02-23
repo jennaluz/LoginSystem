@@ -37,7 +37,6 @@
                           VALUES ('$FirstName', '$LastName', '$EmailAddress', '" . md5($Password) . "')";
 
                 $Result = mysqli_query($Conn, $Query);
-                echo "$Result";
 
                 if ($Result) {
                     echo   "<div class='form'>
@@ -62,23 +61,23 @@
                     <div class="row align-items-center mb-3">
                         <div class="col">
                             <label for="FirstName" class="col-form-label">First Name</label>
-                            <input type="text" name="FirstName" class="form-control" required>
+                            <input type="text" name="FirstName" class="form-control" required/>
                         </div>
 
                         <div class="col">
                             <label for="LastName" class="col-form-label">Last Name</label>
-                            <input type="text" name="LastName" class="form-control" required>
+                            <input type="text" name="LastName" class="form-control" required/>
                         </div>
                     </div>
 
                     <div class="mb-3">
                         <label for="EmailAddress" class="form-label">Email Address</label>
-                        <input type="email" name="EmailAddress" class="form-control" required>
+                        <input type="email" name="EmailAddress" class="form-control" required/>
                     </div>
 
                     <div class="mb-3">
                         <label for="Password" class="form-label">Password</label>
-                        <input type="password" name="Password" class="form-control" required>
+                        <input type="password" name="Password" class="form-control" required/>
                     </div>
 
                     <div class="row mt-2">
