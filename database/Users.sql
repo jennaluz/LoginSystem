@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Feb 23, 2023 at 08:41 AM
+-- Generation Time: Feb 24, 2023 at 10:05 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -40,11 +40,10 @@ CREATE TABLE `Users` (
 --
 
 INSERT INTO `Users` (`UserID`, `FirstName`, `LastName`, `EmailAddress`, `Password`) VALUES
-(5, 'Marshal', 'Mathers', 'enimem@gmail.com', '93d2f1dce3ee89ce5b05e9e057ac925e'),
-(6, 'Pam', 'Beesley', 'beesleyp@gmail.com', '0ff52181eb2b7152415bd9e47e01fcd4'),
-(8, 'Jim', 'Halpert', 'halpertj@gmail.com', 'eef3a79f83c3fcf4e739b8ac76e591b1'),
-(9, 'Stanley', 'Hudson', 'hudsons@gmail.com', 'c7656ce3fbb462c82bad4e11fc7f4165'),
-(11, 'Jenna', 'Lindsay', 'lindsayj@gmail.com', '38f1706725a4b22bc354f595eceb0a64');
+(12, 'Jane', 'Doe', 'doejane@gmail.com', '6579e96f76baa00787a28653876c6127'),
+(13, 'John', 'Doe', 'doejohn@gmail.com', 'a8c0d2a9d332574951a8e4a0af7d516f'),
+(14, 'Charlie', 'Brown', 'brownc@gmail.com', 'e9646d086a37906e5bec4323d3b37c9b'),
+(15, 'Winnie', 'Pooh', 'poohbear@gmail.com', 'b60eb83bf533eecf1bde65940925a981');
 
 --
 -- Indexes for dumped tables
@@ -65,7 +64,7 @@ ALTER TABLE `Users`
 -- AUTO_INCREMENT for table `Users`
 --
 ALTER TABLE `Users`
-  MODIFY `UserID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `UserID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
